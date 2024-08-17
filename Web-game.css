@@ -31,7 +31,6 @@
 
 html {
     font-size: 62.5%;
-    /* overflow-x: hidden; */
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
@@ -242,6 +241,10 @@ h2 {
 }
 
 @media (max-width: 768px){
+    .cursor-1,
+    .cursor-2{
+        display: none;
+    }
     .container {
         padding: 20px 10px;
     }
